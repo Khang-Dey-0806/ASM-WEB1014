@@ -340,3 +340,77 @@ body {
 .contact-form button {
   width: 100%;
 }
+
+.auth {
+  max-width: 400px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.auth h2 {
+  color: #ee4d2d;
+  margin-bottom: 20px;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.auth-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.auth-link a {
+  color: #ee4d2d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.auth.register h2 {
+  color: #ff7337;
+}
+
+.auth.login h2 {
+  color: #ee4d2d;
+}
+
+.btn-login,
+.btn-register {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+/* nút đăng nhập */
+.btn-login {
+  background: #ff0000;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background: #ff0000;
+  color: #ffffff;
+}
+
+/* nút đăng ký */
+.btn-register {
+  background: #ffeb3b;
+  color: #b71c1c;
+}
+
+.btn-register:hover {
+  background: #ffd600;
+}
